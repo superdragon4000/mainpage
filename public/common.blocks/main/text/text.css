@@ -1,0 +1,57 @@
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7em 10em;
+  text-align: center;
+  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url("/public/common.blocks/main/text/cta01.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text__h2 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 2.25rem;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.text__p {
+  padding-right: 10%;
+  padding-left: 10%;
+  color: rgb(206, 206, 206);
+  font-size: 100%;
+  line-height: 1.7;
+}
+
+@media screen and (max-width: 1280px) {
+  .text {
+    padding: 3em;
+  }
+
+  .text__h2 {
+    margin: 0;
+  }
+
+  .text__p {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .text {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .text {
+    background-attachment: scroll;
+  }
+
+  .text__h2 {
+    font-size: 1.75rem;
+  }
+}

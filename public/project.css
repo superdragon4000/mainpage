@@ -1,0 +1,23 @@
+@import "common.blocks/fonts/fonts.css";
+@import "common.blocks/__a.css";
+@import "common.blocks/body/body.css";
+
+@import "common.blocks/header/header.css";
+@import "common.blocks/header/header__title.css";
+
+@import "common.blocks/nav/nav.css";
+
+@import "common.blocks/main/banner/banner.css";
+@import "common.blocks/main/features/features.css";
+@import "common.blocks/main/text/text.css";
+@import "common.blocks/main/quotes/quotes.css";
+
+@import "common.blocks/footer/footer.css";
+
+:root {
+  margin: 0;
+}
+
+.html {
+  box-sizing: border-box;
+}

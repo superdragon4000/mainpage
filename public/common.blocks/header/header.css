@@ -1,0 +1,12 @@
+.header {
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  min-width: 100vw;
+  height: 3.4rem;
+  font-weight: 300;
+  font-size: 1rem;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  background: #111;
+}

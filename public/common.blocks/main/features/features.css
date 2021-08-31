@@ -1,0 +1,84 @@
+@import "features-icons.css";
+
+.features {
+  display: grid;
+  justify-content: center;
+  padding: 7em;
+}
+
+.features__header {
+  display: grid;
+  grid-template: auto / 1fr;
+  justify-content: center;
+  text-align: center;
+}
+
+.features-box {
+  display: grid;
+  grid-gap: 3rem;
+  grid-template: auto / minmax(10em, 25em) minmax(10em, 25em) minmax(10em, 25em);
+  padding-top: 2em;
+}
+
+.features__section {
+  padding: 4em;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 1px rgb(0 0 0 / 3%);
+}
+
+.features__h2 {
+  color: #555;
+  font-weight: 300;
+  font-size: 2.25rem;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.features__p {
+  color: #444;
+  line-height: 1.65;
+}
+
+.features__h3 {
+  margin: 1.5rem 0;
+  color: #555;
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1280px) {
+  .features {
+    padding: 3em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .features-box {
+    grid-gap: 2em;
+    grid-template: auto / minmax(10em, 25em) minmax(10em, 25em);
+  }
+
+  .features__h2 {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .features__h2 {
+    font-size: 1.75rem;
+  }
+
+  .features-box {
+    grid-template: auto / 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .features {
+    padding: 1em;
+  }
+}
